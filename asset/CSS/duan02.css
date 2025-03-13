@@ -3,6 +3,9 @@
 * {
   box-sizing: border-box;
 }
+:root {
+  --header-bg: #10375c;
+}
 
 html {
   font-size: 62.5%;
@@ -12,4 +15,10 @@ body {
   font-size: 1.6rem;
 
   font-family: "Sora", sans-serif;
+}
+/* ====================Header==================== */
+
+.header {
+  background: var(--header-bg);
+  min-width: 100vh;
 }
